@@ -45,6 +45,7 @@ class AppFixtures extends Fixture
             $product->setDescription('Description ' . $i);
             $product->setStock(rand(0, 10000));
             $product->setCategory($allCategories[$randKey]);
+            $product->setImage('5d6f09670b9a9b953d3104cb768c33b5f79ef6e8.jpg');
             $manager->persist($product);
         }
 

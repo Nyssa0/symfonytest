@@ -39,9 +39,11 @@ class ProductController extends AbstractController
     #[Route('category/{id}', name: 'app_product_cat')]
     public function filterByCat(ProductRepository $productRepository, $id): Response
     {
+        $productName = $productRepository->find($id);
         $products = $productRepository->filterCat($id);
         return $this->render('category/index.html.twig', [
             'products' => $products,
+            'productName' => $productName,
         ]);
     }
 
