@@ -3,7 +3,6 @@
 {% block title %}Products{% endblock %}
 
 {% block body %}
-    {{ render(controller('App\\Controller\\AppController::header')) }}
 
 
     <!-- ======= Services Section ======= -->
@@ -27,10 +26,12 @@
                                 </svg>
                                 <i class="bx bxl-dribbble"></i>
                             </div>
-                            <h4><a href="">{{ product.name }}</a></h4>
+                            <h4>{{ product.id }}</h4>
+                            <h4>{{ product.name }}</h4>
                             <p>{{ product.description }}</p>
                             <h5>${{ product.price }}</h5>
                             <p>{{ product.category }}</p>
+                            <a href="{{path('app_product_single', {'id':product.id}) }}">See product</a>
                         </div>
                     </div>
                 {% endfor %}
