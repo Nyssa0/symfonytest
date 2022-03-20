@@ -23,6 +23,7 @@ This project consists in creating an eshop for apple products. On the home page 
 ## 🛠 Setup 🛠
  
 First of all, make sure to have php 8, composer and symfony. Then, install the dependencies.
+⚠️ I had some issues with GitHub so the project is on this link https://github.com/Nyssa0/symfonytest/ ⚠️
 
 ## 🛠 Languages 🛠
 
