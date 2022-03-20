@@ -10,8 +10,9 @@
                 {% for category in categories %}
                     <li><a class="nav-link scrollto" href="#{{ category.name }}">{{ category.name }}</a></li>
                 {% endfor %}
-                <li><a class="getstarted scrollto" href="{{ path('app_login') }}">Login</a></li>
-                <li><a class="getstarted scrollto" href="{{ path('app_login') }}">Register</a></li>
+                <li><a style="padding: 8px 16px" class="getstarted scrollto" href="{{ path('app_product') }}">User</a></li>
+                <li><a style="padding: 8px 16px" class="getstarted scrollto" href="{{ path('admin') }}">Admin</a></li>
+                <li><a style="padding: 8px 16px" class="getstarted scrollto" href="{{ path('app_register') }}">Register</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
