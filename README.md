@@ -22,9 +22,23 @@ This project consists in creating an eshop for apple products. On the home page 
 
 ## 🛠 Setup 🛠
  
-First of all, make sure to have php 8, composer and symfony. Then, install the dependencies.
- <br />
 ⚠️ I had some issues with GitHub so the project is on this link https://github.com/Nyssa0/symfonytest/ ⚠️
+<br />
+First of all, make sure to have php 8, composer and symfony.
+<br />
+Download or clone the project from the other GitHub repo (link above).
+<br />
+Place it in the htdocs folder (or similar).
+<br />
+Don't forget to turn on Mamp (or similar).
+<br />
+Open the folder with PhpStorm (or similar).
+<br />
+Make sure to check the .env.local file and change the user and password if needed.
+<br />
+Make sure to install the dependencies.
+<br />
+In the terminal, enter the command : symfony server:start
 
 ## 🛠 Languages 🛠
 
