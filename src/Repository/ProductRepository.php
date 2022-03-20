@@ -61,15 +61,15 @@ class ProductRepository extends ServiceEntityRepository
             ->getResult();
     }
 
-    /*public function filterCat(int $productId){
+    public function filterCat($id){
         return $this->createQueryBuilder('p')
-            ->select('product', 'category')
-            ->join('product.category', 'p.c')
-            ->where('product.id = :id')
-            ->setParameter('id', $productId)
+            ->select('p')
+            ->join('p.category', 'category')
+            ->where('p.category = :val')
+            ->setParameter('val', $id)
             ->getQuery()
             ->getResult();
-    }*/
+    }
 
 
 
