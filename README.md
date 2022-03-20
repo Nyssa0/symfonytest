@@ -18,11 +18,12 @@
  
 ## 🖥 Introduction 🖥
 
-This project consists in creating an eshop for apple products. On the home page (https://127.0.0.1:8000/), you can see the different categories. By clicking on a category button, you will be able to see the products from said category (https://127.0.0.1:8000/category/{id}). By clicking on a product, you can have its details (https://127.0.0.1:8000/product/{id}). You can use the header buttons to log in (admin & user) and register. If you log in as a user you will be sent to the page (https://127.0.0.1:8000/product) where all the products are diplayed. There are two buttons that allow you to filter the prices. If you log in as an admin, you will be redirected to the admin dashboard (https://127.0.0.1:8000/admin).
+This project consists in creating an eshop for apple products. On the home page (https://127.0.0.1:8000/), you can see the different categories. By clicking on a category button, you will be able to see the products from said category (https://127.0.0.1:8000/category/{id}). By clicking on a product, you can have its details (https://127.0.0.1:8000/product/{id}). You can use the header buttons to log in (admin & user) and register. If you log in as a user you will be sent to the page (https://127.0.0.1:8000/product) where all the products are diplayed. There are two buttons that allow you to filter the prices. If you log in as an admin (user2@gmail.com, password), you will be redirected to the admin dashboard (https://127.0.0.1:8000/admin).
 
 ## 🛠 Setup 🛠
  
 First of all, make sure to have php 8, composer and symfony. Then, install the dependencies.
+ <br />
 ⚠️ I had some issues with GitHub so the project is on this link https://github.com/Nyssa0/symfonytest/ ⚠️
 
 ## 🛠 Languages 🛠
